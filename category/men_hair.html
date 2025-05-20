@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinkvilla</title>
+    
+    <!-- Bootstrap CSS (using CDN for simplicity) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="padding: 0.7rem 1rem;">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-danger" href="#" style="font-size: 24px;">PINKVILLA</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-2">
+        <li class="nav-item">
+          <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+        </li>
+       <li class="nav-item">
+  <a class="nav-link text-dark" href="exclusive.html">
+    Exclusive <span class="badge bg-danger ms-1">New</span>
+  </a>
+</li>
+
+        <!-- <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Pricing</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="men.html">Men</a></li>
+            <li><a class="dropdown-item" href="womens.html">Women</a></li>
+            <!-- <li><a class="dropdown-item" href="./category/kids.php">Kids</a></li> -->
+          </ul>
+        </li>
+      </ul>
+
+      <!-- <form class="d-flex" role="search" style="max-width: 300px;">
+        <input class="form-control me-2" type="search" placeholder="Search products" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit">Search</button>
+      </form>
+       </div>
+      &nbsp;&nbsp;
+    <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+             Login
+        </button>
+        <button type="button" class="btn btn-outline-dark shadow-none" data-bs-toggle="modal" data-bs-target="#registerModal">
+             Register
+        </button> -->
+  </div>
+</nav> 
+
+<ul class="nav justify-content-center" style="background-color: #ffe6f0; padding: 15px; border-radius: 10px;">
+  <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link active" aria-current="page" href="shaving.html" style="color: #e91e63; font-size: 20px; font-weight: bold;">Shaving</a>
+  </li>
+  <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link" href="men_skin.html" style="color: #6a1b9a; font-size: 20px;">Skincare</a>
+  </li>
+  <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link" href="men_hair.html" style="color: #00796b; font-size: 20px;">Haircare</a>
+  </li>
+  <!-- <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link" href="men_be.php" style="color: #00796b; font-size: 20px;">Beared Care</a>
+  </li> -->
+  <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link" href="men_bb.html" style="color: #00796b; font-size: 20px;">Body&Bath</a>
+  </li>
+  <!-- <li class="nav-item" style="margin: 0 15px;">
+    <a class="nav-link disabled" href="men_bb.php" style="color: #9e9e9e; font-size: 20px;" aria-disabled="false">Body&Bath</a>
+  </li> -->
+</ul>
+
+
+<!--card start-->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card" style="border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); overflow: hidden;">
+        <img src="../images/m_hair.jpg" class="card-img-top" alt="Park Avenue" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 18px; font-weight: bold;">Hair Care Combo</h5>
+          <!-- <p class="card-text" style="font-size: 14px; color: #555;">Elevate your style with premium grooming essentials from Park Avenue.</p> -->
+          <p style="font-size: 16px; font-weight: bold; color: #e91e63;">Price: ₹1,199</p>
+          <div class="d-flex justify-content-between mt-3">
+            <a href="#" class="btn btn-outline-primary" style="width: 48%;">Shop Now</a>
+            <a href="#" class="btn btn-success" style="width: 48%;">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card" style="border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); overflow: hidden;">
+        <img src="../images/m_hair1.webp" class="card-img-top" alt="Park Avenue" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 18px; font-weight: bold;">Hair Curls Setup Gel</h5>
+          <!-- <p class="card-text" style="font-size: 14px; color: #555;">Elevate your style with premium grooming essentials from Park Avenue.</p> -->
+          <p style="font-size: 16px; font-weight: bold; color: #e91e63;">Price: ₹999</p>
+          <div class="d-flex justify-content-between mt-3">
+            <a href="#" class="btn btn-outline-primary" style="width: 48%;">Shop Now</a>
+            <a href="#" class="btn btn-success" style="width: 48%;">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card" style="border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); overflow: hidden;">
+        <img src="../images/m_hair2.jpg" class="card-img-top" alt="Park Avenue" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 18px; font-weight: bold;">Hair Shampoo</h5>
+          <!-- <p class="card-text" style="font-size: 14px; color: #555;">Elevate your style with premium grooming essentials from Park Avenue.</p> -->
+          <p style="font-size: 16px; font-weight: bold; color: #e91e63;">Price: ₹599</p>
+          <div class="d-flex justify-content-between mt-3">
+            <a href="#" class="btn btn-outline-primary" style="width: 48%;">Shop Now</a>
+            <a href="#" class="btn btn-success" style="width: 48%;">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<footer class="text-white pt-5 pb-4" style="background: linear-gradient(to right, #e91e63, #f06292);">
+  <div class="container text-md-left">
+    <div class="row text-md-left">
+
+      <!-- Brand Info -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">PinkVilla Beauty</h5>
+        <p style="font-size: 14px;">
+          Explore the finest collection of makeup, skincare & beauty essentials curated just for you.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+        <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Products</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Offers</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Contact</a></p>
+      </div>
+
+      <!-- Customer Support -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+        <p><a href="#" class="text-white text-decoration-none">FAQ</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Shipping & Returns</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Privacy Policy</a></p>
+        <p><a href="#" class="text-white text-decoration-none">Terms of Service</a></p>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+        <p><i class="fas fa-home me-3"></i> Delhi, India</p>
+        <p><i class="fas fa-envelope me-3"></i> support@pinkvilla.com</p>
+        <p><i class="fas fa-phone me-3"></i> +91 9876543210</p>
+        <p><i class="fas fa-print me-3"></i> +91 9876543211</p>
+      </div>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="row d-flex justify-content-center mt-4">
+      <div class="col-md-7 col-lg-8">
+        <p class="text-center">© 2025 PinkVilla Beauty | All Rights Reserved</p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <a href="#" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-4"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS (required for dropdowns and toggles) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
